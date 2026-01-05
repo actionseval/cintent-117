@@ -1,0 +1,207 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+doc/rofunc.synctex.gz
+
+doc/rofunc.bbl
+
+doc/rofunc.aux
+
+doc/rofunc.blg
+
+doc/rofunc.out
+
+.idea/
+whl/
+
+/rofunc/planning_control/lqt/outputs/
+
+rofunc/planning_control/src/robotics-codes-from-scratch-master/
+
+
+doc/source/_build
+
+runs
+/rofunc/simulator/curi/quadru.py
+/rofunc/simulator/curi/sim2.py
+/rofunc/simulator/curi/bullet_sim.py
+
+*.pt
+
+examples/learning/rllib_example.py
+examples/learning/skrl_example.py
+examples/learning/skrl_example2.py
+
+rofunc/learning/RofuncRL/utils/result
+examples/learning/result
+
+rofunc/others/
+/rofunc/simulator/assets/urdf/objects/
+/rofunc/planning_control/src/
+
+examples/data/MULTIMODAL/xsens_data/.DS_Store
+/examples/data/RAW_DEMO/xsens/010-005/
+/examples/data/RAW_DEMO/xsens/010-003/
+/examples/data/RAW_DEMO/xsens/010-004/
+
+rofunc/.DS_Store
+
+.DS_Store
+others/
+
+doc/source/examples
+doc/source/apidocs
+.vscode/
+*.pth
+rofunc/simulator/assets/urdf/ycb/*
+/rofunc/learning/pre_trained_models/efficientsam_s_gpu.jit
+/rofunc/learning/pre_trained_models/efficientsam_ti_gpu.jit
+
+examples/learning_rl/saved_runs/
+saved_runs/
+wandb
+
+*_optitrack2bruce.npy
+*_optitrack2bruce_dof_states.npy
+*_optitrack2h1.npy
+*_optitrack2h1_dof_states.npy
+*_optitrack2walker.npy
+*_optitrack2walker_dof_states.npy
+*_optitrack2hotu.npy
+*_optitrack2hotu_dof_states.npy
+*_optitrack2zju.npy
+*_optitrack2zju_dof_states.npy
+*_optitrack2curi.npy
+*_optitrack2curi_dof_states.npy
+rofunc/simulator/assets/urdf/themis/archive/
+/rofunc/utils/robolab/rdf/data/
+
+rofunc/simulator/assets/urdf/franka_description/rdf/
+
+examples/data/
