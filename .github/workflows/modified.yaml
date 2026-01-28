@@ -23,14 +23,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
-      # CINTENT >> INSERT_CINTENT
-      - uses: JavidDitty/setup-cintent@a606c80c34ec190c6a20dea33d6d58ddb6c4e0cc
   
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
+      
+      # CINTENT >> INSERT_CINTENT
+      - uses: JavidDitty/setup-cintent@e3d420b9a40765f278d3651507e812014bfc7407
 
       - name: Free up disk space
         run: |
